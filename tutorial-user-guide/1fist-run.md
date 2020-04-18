@@ -78,7 +78,8 @@ async def get_model(model_name:ModelName):
     if model_name == ModelName.alexnet:
         return {"model_name": model_name, "message": "深度学习 FTW!"}
     if model_name.vlaue == "lenet":
-        reutn {"model_name": model_name, "message": "一些剩余值"}
+        reutn {"model_name": model_name, "message": "lecnn都在图片"}
+    return {"model_name":model_name,"message":"一些剩余"}
 ```
 声明路径参数，创建枚举类，并带类型注释的路径参数
 >async def get_model(model_name:ModelName)
